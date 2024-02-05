@@ -1,22 +1,23 @@
 # Qubico: Quantum-Based Initiative for Classification and Optimization.
 
-## Installation
 
-Qubico requires Python version 3.9 and above. Installation of Qubico, as well as all
-dependencies, can be done using pip:
 
-```console
-!pip install qiskit[all] 
-!pip install qiskit==0.45.2
-!pip install qiskit_machine_learning==0.45.2 
-!pip install qiskit_algorithms == 0.7.1
-!pip install qiskit-ibm-runtime == 0.17.0
-!pip install qiskit-aer==0.13.2
+
+### 🔧Install environment
+
+1. Create environment with conda:
+
 ```
+conda create -n qubico python=3.10 -y
+conda activate qubico
+```
+2. Install dependencies
 
-## Tutorials and demonstrations
-
-Check our tutorials on */tutorials* folder.
+```
+git clone https://github.com/Qubico-Hack/tutorials.git
+cd tutorials
+pip install -r requirement.txt
+```
 
 ## Contributing to Qubico
 
